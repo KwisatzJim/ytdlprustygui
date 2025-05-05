@@ -1,0 +1,12 @@
+[package]
+name = "ytdlprustygui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31.1"
+egui = "0.31.1"
+rfd = "0.13.0"     # For file dialogs
+dirs = "5.0.1"     # For getting user directories
+arboard = "3.3.0"  # For clipboard operations
+url = "2.5.4"

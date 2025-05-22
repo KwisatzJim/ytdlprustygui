@@ -10,3 +10,9 @@ rfd = "0.13.0"     # For file dialogs
 dirs = "5.0.1"     # For getting user directories
 arboard = "3.3.0"  # For clipboard operations
 url = "2.5.4"
+
+[profile.release]
+strip = true # Automatically strip symbols from binary
+opt-level = "s" # Optimize for size
+lto = true # Enable link time optimization
+codegen-units = 1 # Maximize size reduction optimizations

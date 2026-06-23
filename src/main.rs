@@ -1,6 +1,6 @@
 // main.rs
 use eframe::{egui, NativeOptions};
-use egui::{Button, CentralPanel, Color32, ComboBox, RichText, Vec2};
+use eframe::egui::{Button, CentralPanel, Color32, ComboBox, RichText, Vec2};
 use rfd::FileDialog;
 use std::{
     error::Error,
